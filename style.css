@@ -112,7 +112,7 @@ section {
 
 /* service section */
 .services{
-  background-image: url(../img/bg-about.jpg);
+  background-image: url(img/bg-about.jpg);
   background-size: auto;
   text-align: center;
   padding: 50px;
