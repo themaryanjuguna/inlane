@@ -1,0 +1,223 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlane Enterprises</title>
+    <!-- CSS file link -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Topnav Start -->
+    <div class="topnav">
+        <ul class="logo">
+            <li>
+                <img class="topnav" src="/img/logo1.png" alt="inlane logo">
+            </li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <!-- Topnav end  -->
+    </div>
+    <section id="home">
+        <div class="home">
+            <span>We offer</span>
+            <h1>Branding, Graphic Design <br>and Printing Services</h1>
+            <p style="line-height: 30px;"><em>from Conception to Delivery,<br> at Inlane, we do it all!</em></p>
+            <div>
+                <button class="btn"><a href="mailto:inlane.limited@gmail.com" target="_blank">GET A
+                        QUOTATION</a></button>
+                <button class="btn"><a href="#contacts">VISIT OUR OFFICES</a> </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- About information goes here -->
+    <section id="about">
+        <h2>About us</h2>
+        <div class="about">           
+            <div>
+                <p>
+                    Inlane Enterprises is locally registered company trending well in the modern business environment, where
+                    we are a complete print and branding service company tailored to your specific requirements, our
+                    in-house resources ensure projects can be run from concept and design to final roll-out In design,
+                    our in-house
+                    team makes designs that suits your company, branding that makes your company stand out, printing
+                    that is
+                    of high quality to meet your standard, all these done in an efficient, timely manner and at
+                    competitive price.
+                </p>
+            </div>
+            <div>
+                <img src="/img/portfolio/web1.jpg" alt="about image" width="700px" style="float: right;">
+            </div>
+        </div>
+    </section>
+    <!-- Services information goes here -->
+    <section id="services">
+        <div class="services">
+            <h2>Our Services</h2>
+            <blockquote>GRAPHIC DESIGN OFFSET & DIGITAL PRINTING, BRANDING PROMOTIONAL ITEMS, STATIONERY GENERAL
+                SUPPLIES</blockquote>
+            <h3>Order Bulk, Save more Full print services for less</h3>
+            <div class="services-grid">
+                <div>
+                    <div class="service-img-a">
+                        <img src="/img/services/printing.png" alt="printing" width="500px">
+                    </div>
+                    <div class="toggling-a">
+                        <h3>OFFSET & DIGITAL PRINTING</h3>
+                        <p>
+                            <em>For all your print requirements</em><br>
+                            Corporate Stationery, Brochures, Posters & Flyers, Company Profiles, Calendars Annual
+                            Reports, Computer Stationery, Notebooks & Diaries, POS Material, Newsletters & Magazines
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="service-img">
+                        <img src="/img/services/promotional-item.jpg" alt="promotional-Items"
+                            width="500px">
+                    </div>
+                    <div class="toggling">
+                        <h3>PROMOTIONAL ITEMS</h3>
+                        <p>
+                            <em>Get your brand moving</em><br>
+                            Shirts & Caps, Pens, Rulers & Key Rings, Mugs, Umbrellas & Bags, Lanyards, & Mouse pads,
+                            Wheel Covers & Tear Drops, Badges & Magnets, Wrist Bands & Flash Disks, Snapper Frames, Pop
+                            & Roll-up Banners
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio information goes here -->
+    <section id="portfolio">
+        <div class="portfolio">
+            <h2>Our Portfolio</h2>
+            <div id="btnPortfolio" class="btn_portfolio">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('webdesign')"> Web Design</button>
+                <button class="btn" onclick="filterSelection('printing')"> Printing</button>
+                <button class="btn" onclick="filterSelection('branding')"> Branding</button>
+            </div>
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="column webdesign">
+                    <div class="content">
+                        <img src="/img/portfolio/web1.jpg" alt="Responsive Web Design" style="width:100%">
+                        <h4>Responsive Web Design</h4>
+                    </div>
+                </div>
+                <div class="column webdesign">
+                    <div class="content">
+                        <img src="/img/portfolio/web2.png" alt="E-commerce Website" style="width:100%">
+                        <h4>E-commerce Website</h4>
+                    </div>
+                </div>
+                <div class="column webdesign">
+                    <div class="content">
+                        <img src="/img/portfolio/web3.png" alt="Domain & Hosting" style="width:100%">
+                        <h4>Domain & Hosting</h4>
+                    </div>
+                </div>
+                <div class="column branding">
+                    <div class="content">
+                        <img src="/img/portfolio/branding.png" alt="signages" style="width:100%">
+                        <h4>Signages</h4>
+                    </div>
+                </div>
+                <div class="column branding">
+                    <div class="content">
+                        <img src="/img/portfolio/branding2.jpg" alt="Marketing Materials" style="width:100%">
+                        <h4>Marketing Materials</h4>
+                    </div>
+                </div>
+                <div class="column branding">
+                    <div class="content">
+                        <img src="/img/portfolio/branding3.png" alt="Merchandise" style="width:100%">
+                        <h4>Merchandise</h4>
+                    </div>
+                </div>
+                <div class="column printing">
+                    <div class="content">
+                        <img src="/img/portfolio/graphicdesign.jpg" alt="Merchandise" style="width:100%">
+                        <h4>Editing</h4>
+                    </div>
+                </div>
+                <div class="column printing">
+                    <div class="content">
+                        <img src="/img/portfolio/digitalprint.jpg" alt="Digital Printing" style="width:100%">
+                        <h4>Digital Printing</h4>
+                    </div>
+                </div>
+                <div class="column printing">
+                    <div class="content">
+                        <img src="/img/portfolio/offsetprint.jpg" alt="Offset Printing" style="width:100%">
+                        <h4>Offset Printing</h4>
+                    </div>
+                </div>
+                <div class="column printing">
+                    <div class="content">
+                        <img src="/img/portfolio/tshirtprint.jpg" alt="Customizing your Apparels" style="width:100%">
+                        <h4>Customizing your Apparels</h4>
+                    </div>
+                </div>
+                <!-- END GRID -->
+            </div>
+        </div>
+    </section>
+
+    <!-- contact information goes here -->
+    <section id="contacts">
+        <div class="grid">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.271405716978!2d36.8278573!3d-1.2831338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x12c51567228338ec!2sInlane%20Enterprises!5e0!3m2!1sen!2ske!4v1670780868059!5m2!1sen!2ske"
+                height="400px" width="700px" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <address>
+                    <h3>Inlane Enteprises Limited </h3>
+                    <strong>Physical Location: </strong>Menengai House 4<sup>th</sup> Unit E14 <br> Gaborone Road,
+                    Nairobi CBD <br>
+                    <strong>Postal Address: </strong>101798 00101 Nairobi, Kenya.<br>
+                    <strong>Cell: </strong> +254 722 284 235/0734 855 067 <br>
+                    <strong>Email: </strong><a href="mailto:inlane.limited@gmail.com">inlane.limited@gmail.com</a><br>
+                    <strong>Open Monday through Saturday:</strong> <br> 07:00am - 07:00pm
+                </address>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <img src="/img/logo2.png" alt="inlane logo" height="20%">
+        <h4>Find us on social media.</h4>
+        <a href="https://www.facebook.com/inlaneenterprises/" target="_blank" class="fa fa-facebook social_icons"></a>
+        <a href="https://www.instagram.com/inlane.enterprises/" target="_blank"
+            class="fa fa-instagram social_icons"></a>
+        <a href="https://goo.gl/maps/XA9W9gUpuu8W4vqu6" target="_blank" class="fa fa-map-marker social_icons"></a>
+        <a href="https://wa.me/2540722284235" target="_blank" class="fa fa-whatsapp social_icons"></a>
+        <a href="https://www.linkedin.com/in/pat-nyaga-81152496" target="_blank"
+            class="fa fa-linkedin social_icons"></a>
+        <a href="mailto:inlane.limited@gmail.com" target="_blank" class="fa fa-envelope social_icons"></a>
+        <p>
+            <hr>
+        <div><sup>©</sup>Copyright
+            <script>document.write(new Date().getFullYear())</script> Kibo Inlane Team. All Rights Reserved.
+        </div>
+        </p>
+    </footer>
+    <!-- Javascript fle link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
