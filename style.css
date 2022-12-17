@@ -73,7 +73,7 @@ section {
 
 .home {
   padding: 40px;
-  background-image: url(../img/bg-home.png);
+  background-image: url(img/bg-home.png);
   background-size: cover;
   font-size: xx-large;
   text-align: right;
